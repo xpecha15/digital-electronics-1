@@ -1,8 +1,14 @@
 # digital-electronics-1
 ## second header
 ### third header
-*this si italic*  
+*italic*  
 **bold**  
+1. first
+2. second
+3. third
+- unordered list
+- unordered list
+- unordered list 
 [link](https://github.com/xpecha15/digital-electronics-1)   
 
 |  Table          |  Table            | Table    |
@@ -10,12 +16,6 @@
 | One           | Two           | Three    |
 | Four          | Five          | Six      |
 
-1. first
-2. second
-3. third
-- unordered list
-- unordered list
-- unordered list 
 
 ```ruby
 entity signed_adder is
