@@ -1,4 +1,4 @@
-# Lab 1: YOUR_FIRSTNAME LASTNAME
+# Lab 1: Vilem Pechacek
 
 ### De Morgan's laws
 
