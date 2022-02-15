@@ -3,19 +3,19 @@
 ### third header
 *this si italic*  
 **bold**  
+[link](https://github.com/xpecha15/digital-electronics-1)   
+
+|  Table          |  Table            | Table    |
+| ------------- | ------------- | -------- |
+| One           | Two           | Three    |
+| Four          | Five          | Six      |
+
 1. first
 2. second
 3. third
 - unordered list
 - unordered list
-- unordered list  
-  
-[this is link](https://github.com/xpecha15/digital-electronics-1)  
-
-| This          | Is            | Table    |
-| ------------- | ------------- | -------- |
-| One           | Two           | Three    |
-| Four          | Five          | Six      |
+- unordered list 
 
 ```ruby
 entity signed_adder is
