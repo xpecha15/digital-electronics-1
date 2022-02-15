@@ -1,4 +1,4 @@
-# Lab 1: Vilem Pechacek
+# Lab 1: Vilem Pechacek v01
 
 ### De Morgan's laws
 
