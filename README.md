@@ -17,6 +17,12 @@
 | One           | Two           | Three    |
 | Four          | Five          | Six      |
 
+;writing code;
+...
+code
+code
+code
+...
 
 ```ruby
 entity signed_adder is
