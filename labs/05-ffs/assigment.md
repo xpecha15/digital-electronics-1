@@ -40,7 +40,7 @@
    | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | Output did not change |
    | ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | Output did not change |
    | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | Invert / Toggle |
-   | ![rising](images/eq_uparrow.png) | 1 | 1 | O | Invert /Toggle |
+   | ![rising](images/eq_uparrow.png) | 1 | 1 | O | Invert / Toggle |
 
 <a name="part1"></a>
 
