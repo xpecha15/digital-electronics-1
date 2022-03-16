@@ -1,6 +1,6 @@
 # Lab 6: Vilém Pecháček
 
-## Preparation tasks (done before the lab at home)
+## Preparation tasks
 
 The Nexys A7 board provides five push buttons for user applications.
 
