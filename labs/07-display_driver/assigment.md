@@ -1,6 +1,6 @@
 # Lab 7: Vilém Pecháček
 ## Preparation task
-[waveforms](images/waveform.png)
+![waveforms](waveforms.png)
 ### Display driver
 
 1. Listing of VHDL code of the completed process `p_mux`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
