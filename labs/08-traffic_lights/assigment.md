@@ -1,5 +1,12 @@
 # Lab 8: YOUR_FIRSTNAME LASTNAME
 
+### Preparation task
+
+| **RGB LED** | **Artix-7 pin names** | **RED** | **Yellow** | **Green** |
+| :-: | :-: | :-: | :-: | :-: |
+| LD16 | N15, M16, R12 | 1, 0, 0 | 1, 1, 0 | 0, 1, 0 |
+| LD17 | N16, R11, G14 | 1, 0, 0 | 1, 1, 0 | 0, 1, 0 |
+
 ### Traffic light controller
 
 1. Figure of traffic light controller state diagram. The image can be drawn on a computer or by hand. Always name all states, transitions, and input signals!
