@@ -5,7 +5,6 @@
 * Radim Macho (responsible for xxx)
 * Richard Ladislav (responsible for xxx)
 * Vilém Pecháček (responsible for xxx)
-* ...
 
 ### Table of contents
 
@@ -35,7 +34,16 @@ Deska Nexys A7 obsahuje dva čtyřmístné sedmisegmentové LED displeje se spol
 
 Pro rozsvícení segmentu by měla být anoda ve stavu high, zatímco katoda by měla být ve stavu low. Protože však Nexys A7 používá tranzistory k přivedení dostatečného proudu do společného anodového uzlu, aktivace anody jsou invertované. Proto jsou oba signály AN0..7 a CA..G/DP, když jsou aktivní, ve stavu low.
 
-![segment](images/segment.png)
+<p align="center">
+  <img src="images/segment.png">
+</p>
+
+Při vytváření jednotlivých písmen jsme se inspirovali níže přiloženým návrhem 7 segmentové abecedy, kterou vytvořil uživatel WH1T3_No1SE na platformě Steam.
+
+<p align="center">
+  <img src="images/alphabet.png">
+</p>
+
 <a name="modules"></a>
 
 ## VHDL modules description and simulations
@@ -58,4 +66,5 @@ Write your text here
 
 ## References
 
-1. Write your text here.
+1. https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
+2. https://steamcommunity.com/sharedfiles/filedetails/?id=1701428356
