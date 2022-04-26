@@ -1,12 +1,12 @@
-# Running text on 7-seg displays
+# Running text on 7-seg displays / Běžící text
 
-### Team members
+### Členové týmu
 
 * Radim Macho (responsible for xxx)
 * Richard Ladislav (responsible for xxx)
 * Vilém Pecháček (responsible for xxx)
 
-### Table of contents
+### Obsah
 
 * [Cíle projektu](#objectives)
 * [Popis hardwaru](#hardware)
@@ -19,8 +19,8 @@
 
 ## Cíle projektu
 
-Cílem našeho projektu je naprogramovat ve VHDL jazyku běžící text na 8 segmentových displejích programovatelné desky Nexys A7-5OT. 
-K vývoji kódu použijeme vývojové prostředí Vivado 2020. Naším cílem bude zobrazení slova "digital electronics 1" pomocí osmi 8 segmentových displejů. Slovo bude defaultně písmeno po písmenu přeblíkavat na displeji směrem zprava doleva. Docíli se tak efektu "běžícího" textu. Do programu také implementujeme možnost restartu textu, kdy po stisknutí prostředního tlačítka na desce dojde k navrácení slova do počátečního stavu.
+Cílem našeho projektu je naprogramovat ve VHDL jazyku běžící text na 7 segmentových displejích programovatelné desky Nexys A7-5OT. 
+K vývoji kódu použijeme vývojové prostředí Vivado 2020. Naším cílem bude zobrazení slova "*digital electronics 1*" pomocí osmi 7 segmentových displejů. Slovo bude defaultně písmeno po písmenu přeblíkavat na displeji směrem zprava doleva. Docíli se tak efektu "běžícího" textu. Do programu také implementujeme možnost restartu textu, kdy po stisknutí prostředního tlačítka na desce dojde k navrácení slova do počátečního stavu.
 
 <a name="hardware"></a>
 
