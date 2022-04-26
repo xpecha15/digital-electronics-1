@@ -41,18 +41,18 @@ Pro rozsvícení segmentu by měla být anoda ve stavu high, zatímco katoda by 
 Při vytváření jednotlivých písmen jsme se inspirovali níže přiloženým návrhem 7 segmentové abecedy, kterou vytvořil uživatel WH1T3_No1SE na platformě Steam.
 
 <p align="center">
-  <img src="images/alphabet.png">
+  <img src="images/seg_alphabet.png">
 </p>
 
 <a name="modules"></a>
 
-## VHDL modules description and simulations
+## Popis VHDL modulů a simulace
 
 Write your text here.
 
 <a name="top"></a>
 
-## TOP module description and simulations
+## Popis TOPu a simulace
 
 Write your text here.
 
@@ -64,7 +64,7 @@ Write your text here
 
 <a name="references"></a>
 
-## References
+## Reference
 
 1. https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
 2. https://steamcommunity.com/sharedfiles/filedetails/?id=1701428356
