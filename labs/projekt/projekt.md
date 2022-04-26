@@ -29,8 +29,13 @@ K vývoji kódu použijeme vývojové prostředí Vivado 2020. Naším cílem bu
 
 K realizaci projektu využijeme programovatelnou desku Nexys A7-50T. Na desce využijeme osm 7 segmentových displejů (1) a pět tlačítek (5). Deska se napájí a programuje micro USB kabelem (3) připojeným k počítači. Vývojové prostředí Vivado 2020 nám umožňuje program zkompilovat a nahrát do desky.
 
-![nexys](images/nexys-a7-50t.PNG)
+![nexys](images/nexys-a7-50t.jpg)
 
+Deska Nexys A7 obsahuje dva čtyřmístné sedmisegmentové LED displeje se společnou anodou, nakonfigurované tak, aby se chovaly jako jeden osmimístný displej. Každá z osmi číslic se skládá ze sedmi segmentů uspořádaných do vzoru viz obr. níže, přičemž v každém segmentu je zabudovaná LED. Segmentové LED diody lze rozsvítit jednotlivě, takže na číslici lze zobrazit kterýkoli ze 128 vzorů rozsvícením určitých segmentů LED a ponecháním ostatních tmavých.
+
+Pro rozsvícení segmentu by měla být anoda ve stavu high, zatímco katoda by měla být ve stavu low. Protože však Nexys A7 používá tranzistory k přivedení dostatečného proudu do společného anodového uzlu, aktivace anody jsou invertované. Proto jsou oba signály AN0..7 a CA..G/DP, když jsou aktivní, ve stavu low.
+
+![segment](images/segment.png)
 <a name="modules"></a>
 
 ## VHDL modules description and simulations
