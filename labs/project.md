@@ -10,7 +10,7 @@
 ### Table of contents
 
 * [Cíle projektu](#objectives)
-* [popis hardwaru](#hardware)
+* [Popis hardwaru](#hardware)
 * [Popis VHDL modulů a simulace](#modules)
 * [Popis TOPu a simulace](#top)
 * [Video](#video)
@@ -21,13 +21,15 @@
 ## Cíle projektu
 
 Cílem našeho projektu je naprogramovat ve VHDL jazyku běžící text na 8 segmentových displejích programovatelné desky Nexys A7-5OT. 
-K vývoji kódu použijeme vývojové prostředí Vivado
+K vývoji kódu použijeme vývojové prostředí Vivado 2020. Naším cílem bude zobrazení slova "digital electronics 1" pomocí osmi 8 segmentových displejů. Slovo bude defaultně písmeno po písmenu přeblíkavat na displeji směrem zprava doleva. Docíli se tak efektu "běžícího" textu. Do programu také implementujeme možnost restartu textu, kdy po stisknutí prostředního tlačítka na desce dojde k navrácení slova do počátečního stavu.
 
 <a name="hardware"></a>
 
-## Hardware description
+## Popis hardwaru
 
-Write your text here.
+K realizaci projektu využijeme programovatelnou desku Nexys A7-50T. Na desce využijeme osm 7 segmentových displejů (1) a pět tlačítek (5). Deska se napájí a programuje micro USB kabelem (3) připojeným k počítači. Vývojové prostředí Vivado 2020 nám umožňuje program zkompilovat a nahrát do desky.
+
+![nexys](images/nexys-a7-50t.PNG)
 
 <a name="modules"></a>
 
