@@ -71,6 +71,6 @@ Vytyčených cílů se nám bohužel nepodařilo dosáhnout. Na 7 segmentovém d
 
 <a name="discussion"></a>
 ## Reference
->>smazat : slouží pro odkazy na kód?<<
+>>smazat : slouží pro odkazy na kód?
 1. https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
 2. https://steamcommunity.com/sharedfiles/filedetails/?id=1701428356
