@@ -13,14 +13,15 @@
 * [Popis VHDL modulů a simulace](#modules)
 * [Popis TOPu a simulace](#top)
 * [Video](#video)
+* [Diskuze o výsledcích](#discussion)
 * [Reference](#references)
 
 <a name="objectives"></a>
 
 ## Cíle projektu
 
-Cílem našeho projektu je naprogramovat ve VHDL jazyku běžící text na 7 segmentových displejích programovatelné desky Nexys A7-5OT. 
-K vývoji kódu použijeme vývojové prostředí Vivado 2020. Naším cílem bude zobrazení slova "*digital electronics 1*" pomocí osmi 7 segmentových displejů. Slovo bude defaultně písmeno po písmenu přeblíkavat na displeji směrem zprava doleva. Docíli se tak efektu "běžícího" textu. Do programu také implementujeme možnost restartu textu, kdy po stisknutí prostředního tlačítka na desce dojde k navrácení slova do počátečního stavu.
+Cílem našeho projektu bylo naprogramovat běžící text na 7 segmentových displejích programovatelné desky Nexys A7-5OT pomocí jazyka VHDL. 
+K vývoji kódu jsme použili vývojové prostředí Vivado 2020. Naším cílem bude zobrazení slova "*de1 Hello*" pomocí osmi 7 segmentových displejů. Slovo mělo defaultně písmeno po písmenu přeblíkavat na displeji směrem zprava doleva. Docíli se tak efektu "běžícího" textu. Do programu jsme implementovali možnost restartu textu, kdy po stisknutí prostředního tlačítka na desce dojde k navrácení slova do počátečního stavu.
 
 <a name="hardware"></a>
 
@@ -64,7 +65,12 @@ Write your text here
 
 <a name="references"></a>
 
-## Reference
+## Diskuze o výsledcích
 
+Vytyčených cílů se nám bohužel nepodařilo dosáhnout. Na 7 segmentovém displeji jsme zobrazili slova "*de1 Hello*", avšak nepodařilo se nám zprovoznit posouvání textu. Proč? Aspoň máme reset no ne?
+
+<a name="discussion"></a>
+## Reference
+- smazat : slouží pro odkazy na kód? -
 1. https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1
 2. https://steamcommunity.com/sharedfiles/filedetails/?id=1701428356
